@@ -1,9 +1,57 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-<head><?php wp_head(); ?></head>
+<head>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <?php wp_head(); ?>
+</head>
+
 <body <?php body_class(); ?>>
-<header>
-<h1><?php bloginfo('name'); ?></h1>
-<?php wp_nav_menu(['theme_location'=>'primary']); ?>
+
+<header class="site-header">
+    <div class="header-container">
+
+        
+        <div class="site-logo">
+            <a href="<?php echo esc_url(home_url('/')); ?>">
+                <?php
+                if (has_custom_logo()) {
+                    the_custom_logo();
+                } else {
+                    bloginfo('name');
+                }
+                ?>
+            </a>
+        </div>
+                
+        
+        <nav class="main-navigation">
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'primary',
+                'menu_class'     => 'main-menu',
+                'container'      => false,
+            ));
+            ?>
+        </nav>
+
+        <div class="header-actions">
+           
+
+            <a href="/book-appointment" class="btn-appointment">
+                Book an Appointment
+            </a>
+
+            <a href="/my-account" class="icon-btn">
+                <span class="dashicons dashicons-admin-users"></span>
+            </a>
+
+            <a href="#" class="icon-btn search-toggle">
+                <span class="dashicons dashicons-search"></span>
+            </a>
+        </div>
+
+    </div>
 </header>
-<main>
+
+<main class="site-content">
