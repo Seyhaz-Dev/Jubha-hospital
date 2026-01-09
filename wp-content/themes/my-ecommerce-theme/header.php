@@ -11,8 +11,9 @@
 <header class="site-header">
     <div class="header-container">
 
-        
+
         <div class="site-logo">
+            <img src="http://jubha-hospital.test/wp-content/uploads/2026/01/lgo-removebg-preview.png" alt="">
             <a href="<?php echo esc_url(home_url('/')); ?>">
                 <?php
                 if (has_custom_logo()) {
@@ -23,7 +24,7 @@
                 ?>
             </a>
         </div>
-                
+
         
         <nav class="main-navigation">
             <?php
