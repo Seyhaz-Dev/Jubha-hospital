@@ -11,6 +11,7 @@
 }
 
 .site-header {
+    width: 100vw;
     background: linear-gradient(90deg, #0b3a45, #0a2f38);
    
     color: #fff;
