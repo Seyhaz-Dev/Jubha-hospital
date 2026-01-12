@@ -30,13 +30,13 @@
       <div class="swiper heroSwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
-            <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3">
+            <img src="http://jubha-hospital.test/wp-content/uploads/2026/01/ga.webp">
           </div>
           <div class="swiper-slide">
-            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118">
+            <img src="http://jubha-hospital.test/wp-content/uploads/2026/01/sagaaaaaaa.jpg">
           </div>
           <div class="swiper-slide">
-            <img src="https://images.unsplash.com/photo-1587351021759-3e566b6af7cc">
+            <img src="http://jubha-hospital.test/wp-content/uploads/2026/01/ksk.jpg">
           </div>
         </div>
       </div>
@@ -47,12 +47,12 @@
   <section class="info-section">
     <div class="emergency">
       <h3>Emergency Hotline</h3>
-      <div class="hotline">+966118200000</div>
+      <div class="hotline">+855 96 222 1351</div>
       <p>
         In case of a medical emergency, please contact us immediately
         through our Emergency Hotline.
       </p>
-      <button>Contact Us</button>
+      <button><a href="">Contact Us</a></button>
     </div>
 
     <div class="appointment">
