@@ -12,8 +12,9 @@
 <header class="site-header">
     <div class="header-container">
 
-        
+
         <div class="site-logo">
+            <img src="http://jubha-hospital.test/wp-content/uploads/2026/01/lllllllllllllllllllllll-removebg-preview.png" alt="">
             <a href="<?php echo esc_url(home_url('/')); ?>">
                 <?php
                 if (has_custom_logo()) {
@@ -24,7 +25,7 @@
                 ?>
             </a>
         </div>
-                
+
         
         <nav class="main-navigation">
             <?php
@@ -39,10 +40,7 @@
         <div class="header-actions">
            
 
-            <a href="/book-appointment" class="btn-appointment">
-                Book an Appointment
-            </a>
-
+           
             <a href="/my-account" class="icon-btn">
                 <span class="dashicons dashicons-admin-users"></span>
             </a>
