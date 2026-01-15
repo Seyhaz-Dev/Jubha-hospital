@@ -354,6 +354,7 @@
   </div>
 </section>
 </div>
+
  <script>
     new Swiper(".heroSwiper", {
       loop: true,
