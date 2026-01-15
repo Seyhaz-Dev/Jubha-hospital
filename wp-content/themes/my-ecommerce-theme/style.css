@@ -642,8 +642,7 @@ footer {
 .year-text {
     font-size: 80px;
     font-weight: bold;
-    display: block;
-    line-height: 1;
+    color: #0b3a45;
 }
 
 .sub-text {
@@ -726,6 +725,12 @@ footer {
     letter-spacing: 1px;
     opacity: 0.8;
 }
+.information{
+    width: 60%;
+    padding: 15px 15px;
+    /* background-color: #14b8a6; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: 1px solid #000;
 
 .icon {
     font-size: 2.5rem;
