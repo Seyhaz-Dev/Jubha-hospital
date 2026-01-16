@@ -52,7 +52,7 @@
         In case of a medical emergency, please contact us immediately
         through our Emergency Hotline.
       </p>
-      <button><a href="">Contact Us</a></button>
+      <button><a href="/contact/">Contact Us</a></button>
     </div>
 
     <div class="appointment">
@@ -201,7 +201,7 @@
             <!-- Card 2 -->
             <div class="news-card dark">
                 <div class="news-image">
-                    <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144" alt="">
+                    <img src="http://jubha-hospital.test/wp-content/uploads/2026/01/cov.jpg" alt="">
                 </div>
                 <div class="news-content">
                     <span class="category">MEDICAL ENCYCLOPEDIA</span>

@@ -11,20 +11,20 @@
  <?php get_header(); ?>  
  
 
-    <section class="page-banner">
-    <div class="banner-overlay">
-        <h1>Visitor Information </h1>
-        <div class="breadcrumb">
-        <span class="icon-1">
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-            <i class="fa-regular fa-house"></i>
-            </a>
-        </span>
-         <span>Patient Information
-                / Visitor </span>
+<section class="page-banner">
+        <div class="banner-overlay">
+            <h1>Visitor Information </h1>
+            <div class="breadcrumb">
+            <span class="icon-1">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+                <i class="fa-regular fa-house"></i>
+                </a>
+            </span>
+            <span>Patient Information
+                    / Visitor </span>
+            </div>
         </div>
-    </div>
-    </section>
+</section>
 
 
 <section class="in-patient">

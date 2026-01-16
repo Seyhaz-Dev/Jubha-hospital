@@ -1638,11 +1638,6 @@ footer {
 }
 
 
-h1, h2, h3 {
-  color: #644848;
-  font-weight: 600;
-}
-
 .section-heading {
   text-align: center;
   font-size: 34px;
@@ -1844,7 +1839,7 @@ h1, h2, h3 {
 
 
 h1, h2, h3 {
-  color: #0b3a45;
+  color: #666e70;
   font-weight: 600;
 }
 
@@ -2049,5 +2044,408 @@ h1, h2, h3 {
   .contact-map-iframe {
     height: 300px;
   }
+}
+.hero {
+  background: url("ffbf4ce2-c066-4c25-97cb-90a55ecb5b3e.png") center/cover no-repeat;
+  padding: 60px 40px;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* RENAMED */
+.doctor-container {
+  background: #fff;
+  max-width: 1100px;
+  margin: -40px auto 40px;
+  padding: 40px;
+  margin-top: 70px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.doctor-container p {
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.search-bar input,
+.search-bar select {
+  flex: 1;
+  min-width: 200px;
+  padding: 14px 16px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.search-bar button {
+  background: #005f6a;
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.search-bar button:hover {
+  background: #004b54;
+}
+
+.alphabet-filter {
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.alphabet-filter span {
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #666;
+}
+.alphabet-filter span:hover{
+  color: #004b54;
+}
+.alphabet-filter span.all {
+  color: #005f6a;
+  font-weight: bold;
+}
+
+.doctor-section {
+  padding: 60px 40px;
+  background: #f7f7f7;
+}
+
+.doctor-grid {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.doctor-card {
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e5e5e5;
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+/* IMAGE CONTAINER */
+.doctor-img {
+  height: 280px;
+  overflow: hidden;
+}
+
+/* IMAGE */
+.doctor-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+/* TEXT */
+.doctor-card h3 {
+  color: #005f6a;
+  padding: 15px 15px 5px;
+  margin: 0;
+  font-size: 18px;
+}
+
+.doctor-card .spec,
+.doctor-card .location {
+  padding: 0 15px 15px;
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+}
+
+
+.doctor-card:hover {
+  background: #005f6a;
+}
+
+.doctor-card:hover h3,
+.doctor-card:hover .spec,
+.doctor-card:hover .location {
+  color: #ffffff;
+}
+
+.doctor-card:hover .doctor-img img {
+  transform: scale(1.05);
+}
+/* MODAL OVERLAY */
+.doctor-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 50, 60, 0.9);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+/* MODAL BOX */
+.modal-content {
+  width: 80%;
+  max-width: 1000px;
+  height: 500px;
+  display: flex;
+  background: #005f6a;
+  position: relative;
+}
+
+/* CLOSE */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* LEFT IMAGE */
+.modal-left {
+  width: 45%;
+  background: #eee;
+}
+
+.modal-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* RIGHT CONTENT */
+.modal-right {
+  width: 55%;
+  padding: 40px;
+  color: #fff;
+}
+
+.modal-right h2 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.label {
+  font-size: 13px;
+  opacity: 0.7;
+  margin-top: 25px;
+}
+
+.modal-actions {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.book-btn {
+  background: #00a5b5;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile-link {
+  color: #fff;
+  text-decoration: none;
+}
+.pagination {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.pagination a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+}
+.pagination a:hover{
+  color: #ffffff;
+  background-color: #003b44;
+}
+
+
+.pagination a.next {
+  width: auto;
+  border-radius: 0;
+  padding: 0 10px;
+  font-weight: bold;
+  color: #777;
+}
+.patient-portal {
+    background: linear-gradient(rgba(14, 60, 80, 0.8), rgba(14, 60, 80, 0.8)), 
+                url('your-building-image.jpg'); /* Add your building image path here */
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.portal-container {
+    display: flex;
+    max-width: 1100px;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portal-info h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-top: 10px;
+}
+
+.portal-info .subtitle {
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+/* Login Card Styling */
+.login-card {
+    background: #fff;
+    color: #333;
+    width: 450px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.login-header {
+    background: #002b36; /* Darker teal */
+    color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-body {
+    padding: 30px;
+}
+
+.login-body p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border: none;
+    background: #f1f1f1;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.form-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.btn-signin {
+    background: #00a19c;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+/* Styling for the Back Button area */
+.back-nav {
+    padding: 15px 30px 5px 30px;
+    background: #fff;
+}
+
+.back-nav a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: color 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.back-nav a:hover {
+    color: #00a19c; /* Changes to your brand teal on hover */
+}
+
+.back-nav i {
+    font-size: 0.75rem;
+}
+
+/* Ensure the login card stays organized */
+.login-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.reset-link {
+    color: #00a19c;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.login-footer {
+    border-top: 1px solid #eee;
+    padding: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.login-footer a {
+    color: #00a19c;
+    font-weight: bold;
+    text-decoration: none;
 }
 
