@@ -1580,7 +1580,9 @@ h3{
   margin: auto;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
 }
 
 .houre{
@@ -1605,5 +1607,12 @@ h3{
 .houre p{
   font-size: 25px;
   color: #fff;
+}
+.working h4{
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: underline;
 }
 
