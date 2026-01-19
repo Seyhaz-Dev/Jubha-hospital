@@ -1504,17 +1504,23 @@ footer {
 }
 .hazsa img{
   width: 100%;
-  height: 600px;
+  height: 800px;
   object-fit: cover;
+}
+h3{
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+  text-decoration: underline;
+  font-weight: 400;
 }
 .auto{
   width: 100vw;
   padding: 12px 0;
-  background-color: #0aa6a6;
 }
 .auto-card{
   width: 90vw;
-  padding: 12px 0;
+
   background-color: #ffffff;
   margin: auto;
 }
@@ -1537,7 +1543,67 @@ footer {
 .auto-card img {
     width: 100%;
     display: block;
+    border-radius: 6px;
+}
+.over{
+  width: 90vw;
+  padding: 12px 0;
+  margin: auto;
+}
+.over p{
+  font-size: 20px;
+  text-align: justify;
+}
+.doctor-detail{
+  width: 90vw;
+  padding: 12px 0;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+}
+.img{
+  width: 50%;
+}
+.img img{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.doctor-detail p{
+  font-size: 20px;
+  text-align: justify;
+}
+.working{
+  width: 90vw;
+  padding: 12px 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-
+.houre{
+  width: 90vw;
+  padding: 12px 0;
+  background-color: #666;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  border-radius: 6px;
+  border: 1px solid #000000;
+}
+.houre h1{
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 400;
+}
+.houre p{
+  font-size: 25px;
+  color: #fff;
+}
 
