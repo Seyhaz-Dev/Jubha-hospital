@@ -6,37 +6,38 @@
 <div class="auto">
   <div class="auto-track">
 
-    <div class="auto-card">
+    <div class="auto-card1">
       <img src="<?= get_template_directory_uri(); ?>/img/2.jpg" alt="">
       <div class="card-title">AMC Rakkah</div>
     </div>
 
-    <div class="auto-card">
+    <div class="auto-card1">
       <img src="<?= get_template_directory_uri(); ?>/img/3.webp" alt="">
       <div class="card-title">AGH Khobar</div>
     </div>
 
-    <div class="auto-card">
+    <div class="auto-card1">
       <img src="<?= get_template_directory_uri(); ?>/img/m.jpeg" alt="">
       <div class="card-title">Medical Center</div>
     </div>
 
   </div>
 </div>
+<br><br>
 <div class="auto">
   <div class="auto-track">
 
-    <div class="auto-card">
+    <div class="auto-card1">
       <img src="<?= get_template_directory_uri(); ?>/img/h.jpeg" alt="">
       <div class="card-title">AMC Rakkah</div>
     </div>
 
-    <div class="auto-card">
+    <div class="auto-card1">
       <img src="<?= get_template_directory_uri(); ?>/img/g.jpg" alt="">
       <div class="card-title">AGH Khobar</div>
     </div>
 
-    <div class="auto-card">
+    <div class="auto-card1">
       <img src="<?= get_template_directory_uri(); ?>/img/d.jpeg" alt="">
       <div class="card-title">Medical Center</div>
     </div>
