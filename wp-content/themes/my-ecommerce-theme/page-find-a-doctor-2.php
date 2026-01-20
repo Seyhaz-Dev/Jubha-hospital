@@ -71,11 +71,13 @@
 <section class="doctor-section">
   <div class="doctor-grid">
 
-    <div class="doctor-card"
-      data-name="Dentist Rihab Mubarak Ahmed"
-      data-specialty="Dentist"
-      data-location="AMC Rakkah"
-      data-img="http://jubha-hospital.test/wp-content/uploads/2026/01/ha.webp">
+  <div class="doctor-card"
+  data-name="Dentist Rihab Mubarak Ahmed"
+  data-specialty="Dentist"
+  data-location="AMC Rakkah"
+  data-img="http://jubha-hospital.test/wp-content/uploads/2026/01/ha.webp"
+  data-profile="<?php echo site_url('/doctor/rihab-mubarak-ahmed'); ?>">
+
       
       <div class="doctor-img">
         <img src="http://jubha-hospital.test/wp-content/uploads/2026/01/ha.webp" alt="Doctor">
@@ -303,7 +305,7 @@
 
       <div class="modal-actions">
         <button class="book-btn"><i class="fa-regular fa-calendar-days"></i> BOOK AN APPOINTMENT</button>
-        <a href="#" class="profile-link">VIEW PROFILE →</a>
+        <a href="/viwespf-2/" class="profile-link">VIEW PROFILE →</a>
       </div>
     </div>
 

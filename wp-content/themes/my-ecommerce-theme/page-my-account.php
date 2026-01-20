@@ -9,7 +9,7 @@
 </head>
 
 <body <?php body_class(); ?>
- <?php get_header(); ?>  <br><br><br><br><br><br>
+ <?php get_header(); ?>  <br><br><br>
  <section class="patient-portal">
     <div class="portal-container">
         <div class="portal-info">
