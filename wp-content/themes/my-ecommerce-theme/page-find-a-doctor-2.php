@@ -304,7 +304,10 @@
       <p id="modalLocation"></p>
 
       <div class="modal-actions">
-        <button class="book-btn"><i class="fa-regular fa-calendar-days"></i> BOOK AN APPOINTMENT</button>
+        <a href="<?php echo site_url('/book-appointment'); ?>" class="book-btn">
+  <i class="fa-regular fa-calendar-days"></i> BOOK AN APPOINTMENT
+</a>
+
         <a href="/viwespf-2/" class="profile-link">VIEW PROFILE →</a>
       </div>
     </div>
